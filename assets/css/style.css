@@ -4,17 +4,24 @@
 }
 
 header {
-    background-color: rgb(34, 34, 54);
+    background-color: rgb(52, 52, 66);
 }
 
 .links-effect {
-    background-color: rgb(24, 23, 21);
+    background-color: rgb(52, 52, 66);
 
 }
 
 .links-effect a {
-    color: silver;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.links-effect ul {
     text-align: center;
+    margin-top: 10px;
 }
 
 header h3 {
@@ -34,7 +41,7 @@ header h1 {
 
 .footer-content {
     text-align: center;
-    background-color: rgb(34, 34, 54);
+    background-color: rgb(52, 52, 66);
 }
 
 .footer-content p {
@@ -43,4 +50,35 @@ header h1 {
 
 .footer-content a {
     color: silver
+}
+
+.icon {
+    height: 50px;
+
+}
+
+main {
+    background-image: url('./images/real-estate.jpg');
+}
+
+
+main p {
+    color: white;
+    font-weight: bolder;
+}
+
+main h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+main label {
+    color: white;
+    font-weight: bolder;
+}
+
+.mb-4 h3 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
 }

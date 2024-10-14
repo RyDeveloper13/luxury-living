@@ -2,110 +2,140 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxury Living</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Living</title>
 
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 <body>
-    <header>
-        <h1>Luxury Living</h1>
-        <h3>"Where dreams become reality"</h3>
+  <header>
+    <h1>Luxury Living</h1>
+    <h3>"Where dreams become reality"</h3>
 
-        <div class="links-effect">
-            <ul>
-                <a href="index.html">HOME</a>
-                <a href="index.html">PROPERTIES</a>
-                <a href="index.html">COMMUNITIES</a>
-                <a href="index.html">BUYERS</a>
-
-            </ul>
-
-
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navigation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
+      </div>
+    </nav>
+
+  </header>
 
 
-    </header>
-
-
-    <main>
-        <section>
-            <div class="border-dark">
-                <h1>Why us?</h1>
-                <ul>
-                    <p>At Luxury Living, we understand that buying a home is one of life’s most significant decisions.
-                        With our deep local knowledge, personalized service, and a commitment to exceeding your
-                        expectations, we make the real estate process seamless and enjoyable. We believe that your homes
-                        need to have a home welcoming feeling and thats what we do best!</p>
-                </ul>
-
-            </div>
-
-        </section>
-
-        <secton>
-            <div class="form">
-                <form action="submit" method="post">
-                    <div class="text-area">
-                        <h2>Sign Up Now!</h2>
-                        <input type="text" name="name" placeholder="Full Name" required>
-                        <input type="email" name="email" placeholder="Email" required>
-                        <input type="number" name="number" placeholder="Phone Number" required>
-
-                        <div class="button">
-                            <button type="submit">Submit</button>
-                        </div>
-
-                    </div>
-
-
-                </form>
-            </div>
-        </secton>
-
-    </main>
-
-
-
-
-
+  <main>
     <section>
-        <footer>
-            <div class="footer-content">
-                <p>&copy; 2024 Luxury Living Real Estate. All rights reserved.</p>
+      <span class="main-container">
+        <h1>Why us?</h1>
+        <ul>
+          <p>At Luxury Living, we understand that buying a home is one of life’s most significant decisions.
+            With our deep local knowledge, personalized service, and a commitment to exceeding your
+            expectations, we make the real estate process seamless and enjoyable. We believe that your homes
+            need to have a home welcoming feeling and thats what we do best!</p>
+        </ul>
 
+      </span>
 
-                <ul>
-                    <a href="about.html">About Us</a>
-                    <a href="contact.html">Contact</a>
-                    <a href="privacy.html">Privacy policy</a>
-                </ul>
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook-icon.png" alt="Facebook" class="social-icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter-icon.png" alt="Twitter" class="social-icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram-icon.png" alt="Instagram" class="social-icon">
-                </a>
-            </div>
-
-
-
-
-
-            </div>
-
-        </footer>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+
+    <secton>
+      <form>
+        <div class="mb-4">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control border-success" id="exampleFormControlInput1"
+            placeholder="name@example.com">
+        </div>
+      </form>
+    </secton>
+
+  </main>
+
+
+
+
+
+  <section>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Luxury Living Real Estate. All rights reserved.</p>
+
+
+        <ul>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="privacy.html">Privacy policy</a>
+        </ul>
+
+        <a href="https://www.facebook.com/" target="_blank">
+
+          <img class="icon" src="facebook.png" alt="Facebook">
+
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img src="images/twitter-icon.png" alt="Twitter" class="social-icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="images/instagram-icon.png" alt="Instagram" class="social-icon">
+        </a>
+
+
+      </div>
+
+      <form action="/subscribe" method="post">
+        <label for="email">Subscribe to our newsletter:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+
+
+
+
+
+
+
+      </div>
+
+    </footer>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 
