@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color:  #021d39;
+    margin: 0 0 10px;
+}
+
+p {
+    color: rgb(125, 121, 121);
+    margin: 5px 0;
+}
+
+.realtor-section {
+    background-color:  #021d39;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.realtor-info {
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman';
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.realtor-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.realtor-details {
+    flex-grow: 1;
+}
+
+.realtor-details p {
+    margin: 19px 0;
+}
+
+.values-goals-section  {
+    color: white;
+    background-color: #021d39;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.values-goals-section h1 {
+    text-align: center;
+    color: rgb(11, 161, 230);
+    font-family: 'Times New Roman', Times;
+    font-size: 30px;
+
+}
+
+.values-goals {
+    margin: 20px 0;
+}
+
+.values-goals h3 {
+    color: rgb(125, 173, 219);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.values-goals ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.properties-section {
+    padding: 20px;
+    background-color: rgb(235, 231, 231);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.tourbutton {
+    background-color: transparent;
+    border: 3px solid  #021d39;
+    border-radius: 15px;
+    color: rgb(40, 39, 39);
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 24px;
+    text-align: center;
+    width: 100%;
+}
+
+.talkbutton {
+    background-color:  #021d39;
+    border: 3px solid  #021d39;
+    border-radius: 30px;
+    color: rgb(247, 243, 243);
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 5px 40px;
+    text-align: center;
+    width: 30%;
+}
+.property {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(48, 47, 47, 0.097);
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.property:hover {
+    transform: scale(1.02);
+}
+
+.property-info {
+    width: 50%;
+}
+
+.property-info h2 {
+    color:  rgb(11, 161, 230);;
+}
+
+.property-images {
+    width: 40%;
+    position: relative;
+}
+
+.image-slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+}
+
+.image-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.house-image {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.house-image:hover {
+    transform: scale(1.05);
+}
+
+.gadget-of-the-month {
+    background-color: #021d39;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gadget-of-the-month h1 {
+    text-align: center;
+    color:  rgb(11, 161, 230);;
+}
+
+.gadget-info {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .property {
+        flex-direction: column;
+    }
+
+    .property-images, .property-info {
+        width: 100%;
+    }
+}
+
