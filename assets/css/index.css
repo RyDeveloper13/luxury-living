@@ -52,7 +52,6 @@ header h1 {
     color: silver
 }
 
-<<<<<<< HEAD
 .icon {
     height: 50px;
 
@@ -83,11 +82,22 @@ main label {
     color: white;
     font-weight: bolder;
 }
-=======
-.social-icon {
-    width: 30px; 
-    height: 30px;
-    margin: 5px; 
+
+label {
+    text-align: center;
 }
 
->>>>>>> e26e4092640b8eb36ce669e82603439f1a0dc6a5
+#successMessage {
+    margin-top: 10px;
+    color: green;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+}
+
+#thankMessage {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+}
