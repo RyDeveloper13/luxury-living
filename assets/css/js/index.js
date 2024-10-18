@@ -2,11 +2,10 @@ document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form submission
 
     // Clear the email input and phone number input
-    
-
     const email = document.getElementById('email').value;
     const number = document.getElementById('number').value;
 
+  
     localStorage.setItem('userEmail', email);
     localStorage.setItem('userNumber', number);
 // Hide the email and number fields
@@ -26,4 +25,5 @@ const thankMessage = document.getElementById('thankMessage');
 thankMessage.textContent = 'Thank you for signing up to luxery living were glad to have you on board! '
 
 });
+
 
