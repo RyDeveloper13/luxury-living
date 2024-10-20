@@ -183,7 +183,6 @@ footer {
 }
 
 .footer-content {
-    display: flex;
     align-items: center;
     background-color: rgb(52, 52, 66);
 }
