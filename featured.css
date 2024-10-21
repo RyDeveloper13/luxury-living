@@ -5,7 +5,8 @@ body {
     background-color: #f9f9f9;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #021d39;
     margin: 0 0 10px;
 }
@@ -194,13 +195,14 @@ p {
         flex-direction: column;
     }
 
-    .property-images, .property-info {
+    .property-images,
+    .property-info {
         width: 100%;
     }
 }
 
 .modal {
-    display: none; 
+    display: none;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -228,7 +230,8 @@ p {
     font-weight: bold;
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -244,7 +247,8 @@ p {
     margin-top: 10px;
 }
 
-.modal input, .modal textarea {
+.modal input,
+.modal textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
