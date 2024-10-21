@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Luxury Living</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus.css">
+    
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="featured.html">Featured</a>
+        <a href="Buyer.html">Buyers</a>
+    </div>
+
+</head>
+
+<div class="container">
+<header>
+    <section>
+        <h1>Connect With Us</h1>
+        <p><strong>Let's get started on finding your dream home!</strong></p>
+       </section>
+</header>
+
+<body>
+     
+        <div class="contact-box">
+            <div class="left-contact">
+                <h3>Contact Us</h3>
+                <form id="contactForm">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label><strong>Name</strong></label>
+                            <input type="text" placeholder="First Name, Last Name">
+                        </div>
+                    
+                        <div class="input-group">
+                            <label><strong>Phone</strong></label>
+                            <input type="text" placeholder="###-###-####">
+                        </div>
+                    </div>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label><strong>Email</strong></label>
+                            <input type="email" placeholder="youremail@site.com">
+                        </div>
+               
+                        <div class="input-group">
+                            <label><strong>Subject</strong></label>
+                            <input type="text" placeholder="Message Subject">
+                        </div>
+                    </div>
+
+                    <label><strong>Message</strong></label>
+                    <textarea rows="5" placeholder="Your Message">
+                    </textarea>
+                    <label for="role">I am:</label>
+        <select id="role" name="role" required>
+            <option value="">Select</option>
+            <option value="buyer">a Buyer</option>
+            <option value="seller">a Seller</option>
+            <option value="agent">an Agent</option>
+        </select>
+                    <button type="Submit">Send</button>
+                </form>
+                <div id="confirmation" class="hidden">
+                    Your message has been sent!
+                </div>
+            </div>
+            <div class="right-contact">
+                <h3>Reach Us</h3>
+
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>contactus@luxuryliving.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>(646) 234-9966 </td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>9869 NW 24th St.<br>
+                            Manhattan, NY 10001<br>
+                        </td>
+                    </tr>
+                </table>
+                <div class="image-d-container">
+                <img src="bckgrnd1.jpg" alt="imgde">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="containertwo">
+        <h1>Our Team</h1>
+        <ol class="agent-list">
+            <li class="agent-card">
+                <img src="agentpic.png" alt="Agent 2">
+                <div class="agent-info">
+                    <h2>David Camacho</h2>
+                    <p>Phone: (212) 606-8888</p>
+                    <p>Email: cxmacho.dav@luxuryliving.com</p>
+                    <p>Experience: 3 years</p>
+                </div>
+            </li>
+            <li class="agent-card">
+                <img src="ginaheadshot.jpeg" alt="Agent 1">
+                <div class="agent-info">
+                    <h2>Gina Santana</h2>
+                    <p>Phone: (646) 456-7890</p>
+                    <p>Email: gsantana@luxuryliving.com</p>
+                    <p>Experience: 5 years</p>
+                </div>
+            </li>
+            <li class="agent-card">
+                <img src="ottoheadshot.jpg" alt="Agent 2">
+                <div class="agent-info">
+                    <h2>Otto Holloway</h2>
+                    <p>Phone: (646) 654-3210</p>
+                    <p>Email: oholloway@luxuryliving.com</p>
+                    <p>Experience: 3 years</p>
+                </div>
+            </li>
+            <li class="agent-card">
+                <img src="heidiheadshot.jpg" alt="Agent 2">
+                <div class="agent-info">
+                    <h2>Heidi Pruitt</h2>
+                    <p>Phone: (646) 654-3210</p>
+                    <p>Email: hpruitt@luxuryliving.com</p>
+                    <p>Experience: 3 years</p>
+                </div>
+            </li>
+            <li class="agent-card">
+                <img src="xanderheadhot.jpg" alt="Agent 2">
+                <div class="agent-info">
+                    <h2>Xander Coffey</h2>
+                    <p>Phone: (987) 654-3210</p>
+                    <p>Email: xcoffey@luxuryliving.com</p>
+                    <p>Experience: 3 years</p>
+                </div>
+            </li>
+        </ol>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            const confirmationMessage = document.getElementById('confirmation');
+    
+            contactForm.addEventListener('submit', function(event) {
+                // prevent form from submitting
+                event.preventDefault();
+    
+                // show conf msg
+                confirmationMessage.classList.remove('hidden');
+                confirmationMessage.style.color = 'blue';
+    
+                // clear form fields
+                contactForm.reset();
+    
+            });
+        });
+    </script>
+      
+
+</body>
+</html>
