@@ -191,22 +191,22 @@ input{
      
  }
 
- /* Styling the label */
+ 
 label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
     font-size: 16px;
     color: #333;
-    margin-right: 10px; /* Space between label and select */
+    margin-right: 10px; /* space between label and select */
 }
 
 select {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: 16px;
-    padding: 5px; /* Padding inside the select */
+    padding: 5px; /* inside select */
     border: 1px solid #ccc; /
     border-radius: 4px; 
     background-color: #f9f9f9; 
-    cursor: pointer; /* Cursor change on hover */
+    cursor: pointer; /* cursor change on hover */
 }
 
 select:hover {
@@ -214,9 +214,9 @@ select:hover {
 }
 
 select:focus {
-    outline: none; /* Remove default outline */
-    border-color: #0746f5; /* Border color when focused */
-    background-color: hsla(180, 33%, 99%, 0.797); /* Change background when focused */
+    outline: none; 
+    border-color: #0746f5; 
+    background-color: hsla(180, 33%, 99%, 0.797); 
 }
 
 
